@@ -52,6 +52,7 @@ li {
   font-weight: 700;
   font-size: 36px;
   line-height: 56px;
+  text-align: center;
 }
 
 .title::after {
@@ -100,7 +101,8 @@ li {
   border: 1.4px solid #458FF6;
   box-sizing: border-box;
   border-radius: 55px;
-  padding: 1px 51px
+  padding: 1px 51px;
+  background-color: transparent;
 }
 
 .reverse {
