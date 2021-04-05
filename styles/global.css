@@ -78,6 +78,10 @@ li {
   border-radius: 5px;
 }
 
+.title--white::after {
+  background: #fff;
+}
+
 .subtitle {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
