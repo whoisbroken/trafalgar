@@ -66,6 +66,18 @@ li {
   border-radius: 5px;
 }
 
+.title--left::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  left: 0;
+  bottom: -26px;
+  transform: translateX(0);
+  background: #000000;
+  border-radius: 5px;
+}
+
 .subtitle {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
@@ -85,4 +97,9 @@ li {
   box-sizing: border-box;
   border-radius: 55px;
   padding: 1px 51px
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  margin-left: auto;
 }
