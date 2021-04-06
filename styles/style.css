@@ -1,4 +1,3 @@
-
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -18,10 +17,10 @@
   margin-right: 0;
 }
 
-.nav__link { 
+.nav__link {
   font-size: 18px;
   line-height: 23px;
-  color: #1F1534;
+  color: #1f1534;
   opacity: 0.5;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .hero {
-  margin-bottom: 180px;
+  margin-bottom: 7%;
 }
 
 .hero__container {
@@ -47,6 +46,7 @@
   display: flex;
   flex-direction: column;
   max-width: 445px;
+  margin-right: 25px;
 }
 
 .hero__title {
@@ -64,7 +64,7 @@
   font-weight: 300;
   font-size: 21px;
   line-height: 32px;
-  color: #7D7987;
+  color: #7d7987;
 }
 
 .hero__button {
@@ -75,13 +75,13 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 60px;
-  color: #FFFFFF;
-  background: #458FF6;
+  color: #ffffff;
+  background: #458ff6;
   border-radius: 55px;
 }
 
 .services {
-  margin-bottom: 230px;
+  margin-bottom: 13%;
 }
 
 .services__container {
@@ -89,8 +89,6 @@
   flex-direction: column;
   align-items: center;
 }
-
-
 
 .services__title {
   margin-bottom: 61px;
@@ -100,10 +98,11 @@
   max-width: 952px;
   margin: auto;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .services__list {
-  display: flex; 
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   margin: 0 48px;
@@ -112,17 +111,15 @@
 .services__item {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  flex-basis: 32%;
   padding: 47px 38px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-  border-radius: 20px;  
+  border-radius: 20px;
   margin-bottom: 37px;
 }
 
 .services__item-img {
-  width: 90px;
-  height: 94px;
   margin-bottom: 22px;
 }
 
@@ -139,7 +136,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  color: #7D7987;
+  color: #7d7987;
 }
 
 .services__button {
@@ -147,7 +144,7 @@
 }
 
 .features {
-  margin-bottom: 250px;
+  margin-bottom: 14%;
 }
 
 .healthcare {
@@ -160,12 +157,13 @@
 
 .healthcare__box {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
+  max-width: 486px;
 }
 
 .healthcare__img {
-  margin-right: 137px;
+  margin-right: 14%;
 }
 
 .healthcare__title {
@@ -186,12 +184,13 @@
 
 .download__box {
   display: flex;
-    flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
+  max-width: 420px;
 }
 
 .download__img {
-  margin-left: 71px;
+  margin-left: 7%;
 }
 
 .download__title {
@@ -209,6 +208,7 @@
   align-items: center;
   background-color: transparent;
   cursor: pointer;
+  padding: 1px 43px;
 }
 
 .download__button-text {
@@ -217,7 +217,7 @@
 
 .feedback {
   color: #fff;
-  margin-bottom: 278px;
+  margin-bottom: 15%;
 }
 
 .feedback__container {
@@ -233,7 +233,7 @@
 
 .card__inner {
   max-width: 1120px;
-  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
   padding: 64px 118px 79px;
 }
@@ -281,7 +281,7 @@
 }
 
 .articles {
-  margin-bottom: 170px;
+  margin-bottom: 10%;
 }
 
 .articles__container {
@@ -296,14 +296,15 @@
 .articles__list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 69px;
+  flex-wrap: wrap;
+  margin-bottom: 6%;
 }
 
 .articles__item {
-  max-width: 350px;
+  flex: 0 1 calc(33% - 1em);
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
+  
 }
 
 .articles__img {
@@ -315,7 +316,7 @@
 }
 
 .articles__text {
-  padding: 33px 35px;
+  padding: 0 35px 33px;
 }
 
 .articles__item-title {
@@ -331,7 +332,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  color: #7D7987;
+  color: #7d7987;
   margin-bottom: 25px;
 }
 
@@ -348,7 +349,7 @@
   font-weight: 600;
   font-size: 17px;
   line-height: 28px;
-  color: #4089ED;
+  color: #4089ed;
   background-color: transparent;
   border: none;
   outline: none;
@@ -363,14 +364,14 @@
 
 .footer {
   color: #fff;
-  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 
 .footer__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 118px 190px 109px;
+  padding: 118px 15px 109px;
 }
 .footer__info {
   display: flex;
@@ -402,6 +403,12 @@
   line-height: 28px;
 }
 
+.footer__box {
+  width: 635px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
 .footer__nav {
   color: #fff;
@@ -424,4 +431,185 @@
 .footer__nav-link {
   color: #fff;
   opacity: 1;
+}
+
+@media (max-width: 1270px) {
+  .hero__img {
+    height: auto;
+  }
+  .healthcare__img {
+    height: auto;
+  }
+  .download__img {
+    height: auto;
+  }
+
+  .articles__item {
+    flex-basis: 48%;
+    margin-bottom: 25px;
+  }
+  .articles__text {
+    padding: 0 13px 33px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .card__customer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .customer__details {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .customer__feedback {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .services__item {
+    flex-basis: 49%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .hero__container {
+    flex-direction: column;
+  }
+  .hero__box {
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .hero__img {
+    order: -1;
+    margin-bottom: 25px;
+  }
+
+  .services__item {
+    flex-basis: 100%;
+  }
+
+  .healthcare {
+    margin-bottom: 10%;
+    flex-direction: column;
+  }
+
+  .healthcare__img {
+    margin-right: 0;
+    margin-bottom: 12%;
+  }
+
+  .download {
+    margin-bottom: 10%;
+    flex-direction: column;
+  }
+
+  .download__img {
+    margin-left: 0;
+    margin-bottom: 12%;
+  }
+
+  .download__box {
+    max-width: 486px;
+  }
+  .card__inner {
+    padding: 32px 60px 40px;
+  }
+  .articles__item {
+    flex-basis: 100%;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__nav {
+    display: flex;
+  }
+  .footer__info {
+    margin-bottom: 10%;
+  }
+
+  .footer__box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    line-height: 45px;
+    padding: 1px 38px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .hero__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .hero__subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hero__img {
+    width: 260px;
+  }
+  .services__item-title {
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+  .services__item {
+    padding: 23px 15px;
+  }
+  .healthcare__img {
+    width: 260px;
+  }
+  .download__img {
+    width: 260px;
+  }
+  .customer__details {
+    flex-direction: column;
+  }
+  .customer__avatar {
+    margin-right: 0;
+  }
+
+  .customer__details {
+    text-align: center;
+  }
+
+  .card__inner {
+    padding: 32px 8px 40px;
+  }
+
+  .articles__item-button {
+    padding: 0;
+  }
+
+  .footer__container {
+    padding: 59px 15px 54px;
+  }
+
+  .footer__box {
+    justify-content: inherit;
+
+  }
+
+  .footer__nav {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
 }
