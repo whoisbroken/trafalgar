@@ -15,9 +15,15 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+
     <header class="header">
       <div class="container header__container">
         <img src="./assets/logo_header.svg" alt="logo" />
+        <div class="burger__menu">
+          <button class="burger__button">
+             <span class="burger__item"></span>
+          </button>
+        </div>
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -54,8 +60,8 @@
           class="hero__img"
           src="./assets/hero.png"
           alt="hero"
-          width="58%"
-          height="598px"
+          width="693"
+          height="598"
         />
       </div>
     </section>
@@ -75,8 +81,8 @@
               class="services__item-img"
               src="./assets/search.svg"
               alt="#"
-              width="90px"
-              height="94px"
+              width="90"
+              height="94"
             />
             <h3 class="services__item-title">Search doctor</h3>
             <p class="services__item-subtitle">
@@ -89,8 +95,8 @@
               class="services__item-img"
               src="./assets/bottle.svg"
               alt="#"
-              width="90px"
-              height="94px"
+              width="90"
+              height="94"
             />
             <h3 class="services__item-title">Online pharmacy</h3>
             <p class="services__item-subtitle">
@@ -103,8 +109,8 @@
               class="services__item-img"
               src="./assets/consultation.svg"
               alt="#"
-              width="90px"
-              height="94px"
+              width="90"
+              height="94"
             />
             <h3 class="services__item-title">Consultation</h3>
             <p class="services__item-subtitle">
@@ -117,8 +123,8 @@
               class="services__item-img"
               src="./assets/details.svg"
               alt="#"
-              width="90px"
-              height="94px"
+              width="90"
+              height="94"
             />
             <h3 class="services__item-title">Details info</h3>
             <p class="services__item-subtitle">
@@ -131,8 +137,8 @@
               class="services__item-img"
               src="./assets/emergency.svg"
               alt="#"
-              width="90px"
-              height="94px"
+              width="90"
+              height="94"
             />
             <h3 class="services__item-title">Emergency care</h3>
             <p class="services__item-subtitle">
@@ -145,8 +151,8 @@
               class="services__item-img"
               src="./assets/tracking.svg"
               alt="#"
-              width="90px"
-              height="94px"
+              width="90"
+              height="94"
             />
             <h3 class="services__item-title">Tracking</h3>
             <p class="services__item-subtitle">
@@ -160,19 +166,19 @@
 
     <section class="features">
       <div class="container features__container">
-        <section class="healthcare">
+        <section class="features-section healthcare">
           <img
             class="healthcare__img"
             src="./assets/healthcare-section.png"
             alt="healthcare"
-            width="58%"
-            height="477px"
+            width="650"
+            height="477"
           />
-          <div class="healthcare__box">
-            <h2 class="healthcare__title title title--left">
+          <div class="features-section__box healthcare__box">
+            <h2 class="features-section__title healthcare__title title title--left">
               Leading healthcare providers
             </h2>
-            <p class="healthcare__subtitle subtitle">
+            <p class="features-section__subtitle healthcare__subtitle subtitle">
               Trafalgar provides progressive, and affordable healthcare,
               accessible on mobile and online for everyone. To us, it’s not just
               work. We take pride in the solutions we deliver
@@ -180,24 +186,24 @@
             <a class="healthcare__button button" href="#">Learn more</a>
           </div>
         </section>
-        <section class="download reverse">
+        <section class="features-section download reverse">
           <img
             class="download__img"
             src="./assets/download-section.png"
             alt="download"
-            width="60%"
-            height="430px"
+            width="665"
+            height="430"
           />
-          <div class="download__box">
-            <h2 class="download__title title title--left">
+          <div class="features-section__box download__box">
+            <h2 class="features-section__title download__title title title--left">
               Download our mobile appss
             </h2>
-            <p class="download__subtitle subtitle">
+            <p class="features-section__subtitle download__subtitle subtitle">
               Our dedicated patient engagement app and web portal allow you to
               access information instantaneously (no tedeous form, long calls,
               or administrative hassle) and securely
             </p>
-            <button class="download__button button" href="#">
+            <button class="download__button button">
               <span class="download__button-text">Download</span>
               <img src="./assets/arrow_bottom.svg" alt="arrow_bottom" />
             </button>
@@ -208,7 +214,7 @@
 
     <section class="feedback">
       <div class="container feedback__container">
-        <div class="card">
+        <div class=" card feedback__card">
           <div class="card__inner">
             <h2 class="card__title title title--white">
               What our customer are saying
@@ -220,6 +226,8 @@
                     class="customer__avatar"
                     src="./assets/avatar.png"
                     alt="avatar"
+                    width="141"
+                    height="141"
                   />
                   <div class="customer__box">
                     <h4 class="customer__name">Edward Newgate</h4>
@@ -244,9 +252,11 @@
         <ul class="articles__list">
           <li class="articles__item">
             <img
-              src="./assets/article_1.png"
+              src="./assets/Disease detection.png"
               alt="article"
               class="articles__img"
+              width="350"
+              height="240"
             />
             <div class="articles__text">
               <h4 class="articles__item-title">
@@ -264,9 +274,11 @@
           </li>
           <li class="articles__item">
             <img
-              src="./assets/article_2.png"
+              src="./assets/Herbal medicines.png"
               alt="article"
               class="articles__img"
+              width="350"
+              height="240"
             />
             <div class="articles__text">
               <h4 class="articles__item-title">
@@ -284,9 +296,11 @@
           </li>
           <li class="articles__item">
             <img
-              src="./assets/article_3.png"
+              src="./assets/Natural care.png"
               alt="article"
               class="articles__img"
+              width="350"
+              height="240"
             />
             <div class="articles__text">
               <h4 class="articles__item-title">
